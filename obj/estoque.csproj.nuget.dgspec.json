@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Math_\\OneDrive\\Documentos\\ApiEstoque\\webApiControleDeEstoque\\estoque.csproj": {}
+    "C:\\Users\\Math_\\OneDrive\\Documentos\\ApiEstoque\\webApiControleDeEstoque\\estoque.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Math_\\OneDrive\\Documentos\\ApiEstoque\\webApiControleDeEstoque\\estoque.csproj": {
+    "C:\\Users\\Math_\\OneDrive\\Documentos\\ApiEstoque\\webApiControleDeEstoque\\estoque.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Math_\\OneDrive\\Documentos\\ApiEstoque\\webApiControleDeEstoque\\estoque.csproj",
+        "projectUniqueName": "C:\\Users\\Math_\\OneDrive\\Documentos\\ApiEstoque\\webApiControleDeEstoque\\estoque.csproj",
         "projectName": "estoque",
-        "projectPath": "c:\\Users\\Math_\\OneDrive\\Documentos\\ApiEstoque\\webApiControleDeEstoque\\estoque.csproj",
+        "projectPath": "C:\\Users\\Math_\\OneDrive\\Documentos\\ApiEstoque\\webApiControleDeEstoque\\estoque.csproj",
         "packagesPath": "C:\\Users\\Math_\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Math_\\OneDrive\\Documentos\\ApiEstoque\\webApiControleDeEstoque\\obj\\",
+        "outputPath": "C:\\Users\\Math_\\OneDrive\\Documentos\\ApiEstoque\\webApiControleDeEstoque\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Math_\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,26 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
