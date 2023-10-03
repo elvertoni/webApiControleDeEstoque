@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Usuario\\Desktop\\estoque\\estoque\\estoque.csproj": {}
+    "c:\\Users\\Math_\\OneDrive\\Documentos\\ApiEstoque\\webApiControleDeEstoque\\estoque.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Usuario\\Desktop\\estoque\\estoque\\estoque.csproj": {
+    "c:\\Users\\Math_\\OneDrive\\Documentos\\ApiEstoque\\webApiControleDeEstoque\\estoque.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Usuario\\Desktop\\estoque\\estoque\\estoque.csproj",
+        "projectUniqueName": "c:\\Users\\Math_\\OneDrive\\Documentos\\ApiEstoque\\webApiControleDeEstoque\\estoque.csproj",
         "projectName": "estoque",
-        "projectPath": "c:\\Users\\Usuario\\Desktop\\estoque\\estoque\\estoque.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Usuario\\Desktop\\estoque\\estoque\\obj\\",
+        "projectPath": "c:\\Users\\Math_\\OneDrive\\Documentos\\ApiEstoque\\webApiControleDeEstoque\\estoque.csproj",
+        "packagesPath": "C:\\Users\\Math_\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Math_\\OneDrive\\Documentos\\ApiEstoque\\webApiControleDeEstoque\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Math_\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
         }
       }
     }
