@@ -1,18 +1,18 @@
-namespace estoque.Interfaces;
 using estoque.Models;
+using Microsoft.AspNetCore.Mvc;
 
-public interface IProduto
+
+namespace estoque.Interfaces
 {
-    void AdicionarProduto(ProdutoModel produto);
-    void RemoverProduto(int produtoId);
-    void AtualizarPreço(int produtoId, double novoPreço);
-    void AtualizarQuantidade(int produtoId, double novaQuantidade);
-    string GetNome();
-    void SetNome(string nome);
-    string GetDescrição();
-    void SetDescrição(string descrição);
-    double GetPreço();
-    void SetPreço(double preço);
-    double GetQuantidadeEstoque();
-    void SetQuantidadeEstoque(double quantidadeEstoque);
+	public interface IProduto
+	{
+
+		Task<IActionResult> AdicionarProduto(ProdutoModel produto);
+		Task<IActionResult> RemoverProduto(int produtoId);
+		Task<IActionResult> AtualizarPreço(int produtoId, double novoPreço);
+		Task<IActionResult> AtualizarQuantidade(int produtoId, double novaQuantidade);
+		Task<IActionResult> ObterProdutoPorId(int produtoId);
+		Task<IActionResult> ObterTodosProdutos();
+
+	}
 }

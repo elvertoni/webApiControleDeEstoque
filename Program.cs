@@ -1,4 +1,6 @@
 using estoque.Data;
+using estoque.Interfaces;
+using estoque.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +18,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IProduto, ProdutoService>();
+builder.Services.AddScoped<ICategoria, CategoriaServices>();
+
+
 
 var app = builder.Build();
 

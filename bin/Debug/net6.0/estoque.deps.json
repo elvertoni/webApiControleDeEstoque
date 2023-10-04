@@ -9,7 +9,6 @@
       "estoque/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.22",
-          "Microsoft.EntityFrameworkCore.Design": "6.0.22",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.22",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
           "Swashbuckle.AspNetCore": "6.5.0"

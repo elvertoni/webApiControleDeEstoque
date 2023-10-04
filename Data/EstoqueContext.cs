@@ -1,30 +1,32 @@
 using estoque.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace estoque.Data;
-
-class EstoqueContext : DbContext
+namespace estoque.Data
 {
-    public EstoqueContext(DbContextOptions<EstoqueContext> options) : base(options)
-    {
-    }
+	public class EstoqueContext : DbContext
+	{
+		public EstoqueContext(DbContextOptions<EstoqueContext> options) : base(options)
+		{
 
-    public DbSet<CategoriaModel>? Categoria { get; set; }
-    public DbSet<EstoqueModel>? Estoque { get; set; }
-    public DbSet<FornecedorModel>? Fornecedor { get; set; }
-    public DbSet<FuncionarioModel>? Funcionario { get; set; }
-    public DbSet<ProdutoModel>? Produto { get; set; }
+		}
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        // Configurar a relação um-para-um entre CategoriaModel e ProdutoModel
-        modelBuilder.Entity<CategoriaModel>()
-            .HasOne(c => c.Produto)
-            .WithOne(p => p.Categoria)
-            .HasForeignKey<ProdutoModel>(p => p.IdCategoria);
+		public DbSet<CategoriaModel> Categorias { get; set; }
+		public DbSet<EstoqueModel> Estoque { get; set; }
+		public DbSet<FornecedorModel> Fornecedores { get; set; }
+		public DbSet<FuncionarioModel> Funcionario { get; set; }
+		public DbSet<ProdutoModel> Produtos { get; set; }
 
-        // Restante das configurações do modelo
+		protected override void OnModelCreating(ModelBuilder modelBuilder)
+		{
+			// Configurar a relação um-para-muitos entre CategoriaModel e ProdutoModel
+			modelBuilder.Entity<CategoriaModel>()
+				.HasMany(c => c.Produtos) // Uma categoria tem muitos produtos
+				.WithOne(p => p.Categoria) // Um produto pertence a uma categoria
+				.HasForeignKey(p => p.IdCategoria); // Chave estrangeira em ProdutoModel
 
-        base.OnModelCreating(modelBuilder);
-    }
+			// Restante das configurações do modelo
+
+			base.OnModelCreating(modelBuilder);
+		}
+	}
 }

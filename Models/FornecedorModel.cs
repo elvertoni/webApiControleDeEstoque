@@ -1,29 +1,26 @@
-namespace estoque.Models;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
-
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
-
-
-public class FornecedorModel
+namespace estoque.Models
 {
-	[Key]
-	public int Id { get; set; }
+	public class FornecedorModel
+	{
+		[Key]
+		public int Id { get; set; }
 
-	[Required]
-	public string? Nome { get; set; }
+		[Required]
+		public string? Nome { get; set; }
 
-	public string? Endereço { get; set; }
+		public string? Endereco { get; set; }
 
-	public string? Telefone { get; set; }
+		public string? Telefone { get; set; }
 
-	public string? CNPJ { get; set; }
+		public string? CNPJ { get; set; }
 
-	// Lista de produtos fornecidos pelo fornecedor
-	public List<ProdutoModel>? ListaDeProdutos { get; set; }
+		// Propriedades de navegação para produtos fornecidos pelo fornecedor
+		public List<ProdutoModel> ProdutosFornecidos { get; set; } = new List<ProdutoModel>();
 
-	// Lista de categorias fornecidas pelo fornecedor
-	public List<CategoriaModel>? ListaDeCategorias { get; set; }
+		// Propriedades de navegação para categorias fornecidas pelo fornecedor
+		public List<CategoriaModel> CategoriasFornecidas { get; set; } = new List<CategoriaModel>();
+	}
 }

@@ -1,5 +1,4 @@
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 
 
@@ -13,14 +12,8 @@ public class CategoriaModel
 	[Required]
 	public string? Nome { get; set; }
 
-	public string? Descrição { get; set; }
+	public string? Descricao { get; set; }
 
-	[ForeignKey("ProdutoModel")]
-	public int IdProduto { get; set; }
-
-	// Propriedade de navegação para o produto relacionado
-	public ProdutoModel? Produto { get; set; }
-
-
-
+	// Propriedade de navegação para os produtos relacionados a esta categoria
+	public ICollection<ProdutoModel>? Produtos { get; set; }
 }

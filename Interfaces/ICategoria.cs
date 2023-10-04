@@ -1,16 +1,15 @@
-namespace estoque.Interfaces;
 using estoque.Models;
+using Microsoft.AspNetCore.Mvc;
 
 
-
-public interface ICategoria
+namespace estoque.Interfaces
 {
-    void AdicionarCategoria(CategoriaModel categoria);
-    void RemoverCategoria(int categoriaId);
-    CategoriaModel VisualizarCategoria(int categoriaId);
-    void AtualizarCategoria(CategoriaModel categoria);
-    string GetNome();
-    void SetNome(string nome);
-    string GetDescrição();
-    void SetDescrição(string descrição);
+    public interface ICategoria
+    {
+        Task<IActionResult> AdicionarCategoria(CategoriaModel categoria);
+        Task<IActionResult> RemoverCategoria(int categoriaId);
+        Task<IActionResult> VisualizarCategoria(int categoriaId);
+        Task<IActionResult> AtualizarCategoria(CategoriaModel categoria);
+        Task<IActionResult> ObterTodasCategorias();
+    }
 }

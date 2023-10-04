@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using estoque.Data;
 
@@ -10,9 +11,10 @@ using estoque.Data;
 namespace estoque.Migrations
 {
     [DbContext(typeof(EstoqueContext))]
-    partial class EstoqueContextModelSnapshot : ModelSnapshot
+    [Migration("20231004003144_AtualizandoMigrationsDataBase")]
+    partial class AtualizandoMigrationsDataBase
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -25,13 +27,16 @@ namespace estoque.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("Descricao")
+                    b.Property<string>("Descrição")
                         .HasColumnType("longtext");
 
                     b.Property<int?>("FornecedorModelId")
                         .HasColumnType("int");
 
                     b.Property<int?>("FuncionarioModelId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdProduto")
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
@@ -44,7 +49,7 @@ namespace estoque.Migrations
 
                     b.HasIndex("FuncionarioModelId");
 
-                    b.ToTable("Categorias");
+                    b.ToTable("Categoria");
                 });
 
             modelBuilder.Entity("estoque.Models.EstoqueModel", b =>
@@ -78,7 +83,7 @@ namespace estoque.Migrations
                     b.Property<string>("CNPJ")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("Endereco")
+                    b.Property<string>("Endereço")
                         .HasColumnType("longtext");
 
                     b.Property<int?>("FuncionarioModelId")
@@ -136,10 +141,10 @@ namespace estoque.Migrations
                     b.Property<DateTime>("DataValidade")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<string>("Descricao")
+                    b.Property<string>("Descrição")
                         .HasColumnType("longtext");
 
-                    b.Property<int>("FornecedorId")
+                    b.Property<int?>("FornecedorId")
                         .HasColumnType("int");
 
                     b.Property<int?>("FuncionarioModelId")
@@ -167,7 +172,8 @@ namespace estoque.Migrations
 
                     b.HasIndex("FuncionarioModelId");
 
-                    b.HasIndex("IdCategoria");
+                    b.HasIndex("IdCategoria")
+                        .IsUnique();
 
                     b.ToTable("Produtos");
                 });
@@ -175,7 +181,7 @@ namespace estoque.Migrations
             modelBuilder.Entity("estoque.Models.CategoriaModel", b =>
                 {
                     b.HasOne("estoque.Models.FornecedorModel", null)
-                        .WithMany("CategoriasFornecidas")
+                        .WithMany("ListaDeCategorias")
                         .HasForeignKey("FornecedorModelId");
 
                     b.HasOne("estoque.Models.FuncionarioModel", null)
@@ -202,18 +208,16 @@ namespace estoque.Migrations
             modelBuilder.Entity("estoque.Models.ProdutoModel", b =>
                 {
                     b.HasOne("estoque.Models.FornecedorModel", "Fornecedor")
-                        .WithMany("ProdutosFornecidos")
-                        .HasForeignKey("FornecedorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .WithMany("ListaDeProdutos")
+                        .HasForeignKey("FornecedorId");
 
                     b.HasOne("estoque.Models.FuncionarioModel", null)
                         .WithMany("Produtos")
                         .HasForeignKey("FuncionarioModelId");
 
                     b.HasOne("estoque.Models.CategoriaModel", "Categoria")
-                        .WithMany("Produtos")
-                        .HasForeignKey("IdCategoria")
+                        .WithOne("Produto")
+                        .HasForeignKey("estoque.Models.ProdutoModel", "IdCategoria")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -224,14 +228,14 @@ namespace estoque.Migrations
 
             modelBuilder.Entity("estoque.Models.CategoriaModel", b =>
                 {
-                    b.Navigation("Produtos");
+                    b.Navigation("Produto");
                 });
 
             modelBuilder.Entity("estoque.Models.FornecedorModel", b =>
                 {
-                    b.Navigation("CategoriasFornecidas");
+                    b.Navigation("ListaDeCategorias");
 
-                    b.Navigation("ProdutosFornecidos");
+                    b.Navigation("ListaDeProdutos");
                 });
 
             modelBuilder.Entity("estoque.Models.FuncionarioModel", b =>
