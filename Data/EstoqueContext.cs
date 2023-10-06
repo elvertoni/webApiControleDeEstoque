@@ -11,7 +11,6 @@ namespace estoque.Data
 		}
 
 		public DbSet<CategoriaModel> Categorias { get; set; }
-		public DbSet<EstoqueModel> Estoque { get; set; }
 		public DbSet<FornecedorModel> Fornecedores { get; set; }
 		public DbSet<FuncionarioModel> Funcionario { get; set; }
 		public DbSet<ProdutoModel> Produtos { get; set; }
