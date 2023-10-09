@@ -1,0 +1,46 @@
+using Microsoft.AspNetCore.Mvc.Testing;
+
+
+### Criar Produto ### 
+@name=Adicionar Produto
+POST https://localhost:7295/api/produtos
+Content-Type: application/json
+
+{
+    "Nome": "Produto Exemplo",
+    "Descricao": "Descrição do produto",
+    "Preco": 29.99,
+    "QuantidadeEstoque": 100,
+    "DataValidade": "2023-12-31", // Data no formato "AAAA-MM-DD"
+    "IdFornecedor": 1, // ID do fornecedor associado
+    "IdCategoria": 2 // ID da categoria associada
+}
+
+### Obtendo Produto por ID ###
+@name=Obter Produto
+GET https://localhost:7295/api/produtos/1
+
+
+### Obtendo Produtos ###
+@name = Obter todos os Produtos
+GET https://localhost:7295/api/produtos
+
+
+@name=Atualizar Preço
+PUT https://localhost:7295/api/produtos/1/atualizar-preco
+Content-Type: application/json
+
+{
+    10.50
+}
+
+
+
+@name=Atualizar Quantidade
+PUT https://localhost:7295/api/produtos/1/atualizar-quantidade
+Content-Type: application/json
+{
+150
+}
+@name=Remover Produto
+DELETE https://localhost:7295/api/produtos/1
