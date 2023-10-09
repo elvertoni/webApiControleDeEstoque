@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Categoria_Toni\\webApiControleDeEstoque\\estoque.csproj": {}
+    "C:\\Users\\mgama\\OneDrive\\Área de Trabalho\\projeto\\webApiControleDeEstoque\\estoque.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Categoria_Toni\\webApiControleDeEstoque\\estoque.csproj": {
+    "C:\\Users\\mgama\\OneDrive\\Área de Trabalho\\projeto\\webApiControleDeEstoque\\estoque.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Categoria_Toni\\webApiControleDeEstoque\\estoque.csproj",
+        "projectUniqueName": "C:\\Users\\mgama\\OneDrive\\Área de Trabalho\\projeto\\webApiControleDeEstoque\\estoque.csproj",
         "projectName": "estoque",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Categoria_Toni\\webApiControleDeEstoque\\estoque.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Categoria_Toni\\webApiControleDeEstoque\\obj\\",
+        "projectPath": "C:\\Users\\mgama\\OneDrive\\Área de Trabalho\\projeto\\webApiControleDeEstoque\\estoque.csproj",
+        "packagesPath": "C:\\Users\\mgama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mgama\\OneDrive\\Área de Trabalho\\projeto\\webApiControleDeEstoque\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\mgama\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,6 +72,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
