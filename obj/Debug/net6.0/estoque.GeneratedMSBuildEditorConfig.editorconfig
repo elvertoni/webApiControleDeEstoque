@@ -5,6 +5,7 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+<<<<<<< HEAD
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = estoque
 build_property.RootNamespace = estoque
@@ -13,4 +14,15 @@ build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\Math_\OneDrive\Área de Trabalho\NovoProjeto
+=======
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = estoque
+build_property.RootNamespace = estoque
+build_property.ProjectDir = C:\Users\mgama\OneDrive\Área de Trabalho\projeto\webApiControleDeEstoque\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mgama\OneDrive\Área de Trabalho\projeto\webApiControleDeEstoque
+>>>>>>> ef24d1360dcab72365daf732be8ec9bcb0a2e06b
 build_property._RazorSourceGeneratorDebug = 

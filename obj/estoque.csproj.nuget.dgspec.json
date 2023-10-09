@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Math_\\OneDrive\\Área de Trabalho\\NovoProjeto\\estoque.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Math_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+    "C:\\Users\\mgama\\OneDrive\\Área de Trabalho\\projeto\\webApiControleDeEstoque\\estoque.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mgama\\OneDrive\\Área de Trabalho\\projeto\\webApiControleDeEstoque\\estoque.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mgama\\OneDrive\\Área de Trabalho\\projeto\\webApiControleDeEstoque\\estoque.csproj",
+        "projectName": "estoque",
+        "projectPath": "C:\\Users\\mgama\\OneDrive\\Área de Trabalho\\projeto\\webApiControleDeEstoque\\estoque.csproj",
+        "packagesPath": "C:\\Users\\mgama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mgama\\OneDrive\\Área de Trabalho\\projeto\\webApiControleDeEstoque\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mgama\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> ef24d1360dcab72365daf732be8ec9bcb0a2e06b
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -72,6 +89,27 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+<<<<<<< HEAD
+=======
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            }
+          ],
+>>>>>>> ef24d1360dcab72365daf732be8ec9bcb0a2e06b
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -80,7 +118,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+>>>>>>> ef24d1360dcab72365daf732be8ec9bcb0a2e06b
         }
       }
     }
