@@ -25,3 +25,165 @@ C:\Users\Usuario\Desktop\estoque\estoque\obj\Debug\net6.0\refint\estoque.dll
 C:\Users\Usuario\Desktop\estoque\estoque\obj\Debug\net6.0\estoque.pdb
 C:\Users\Usuario\Desktop\estoque\estoque\obj\Debug\net6.0\estoque.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\estoque\estoque\obj\Debug\net6.0\ref\estoque.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\appsettings.json
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\estoque.exe
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\estoque.deps.json
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\estoque.runtimeconfig.json
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\estoque.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\estoque.pdb
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\obj\Debug\net6.0\estoque.csproj.AssemblyReference.cache
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\obj\Debug\net6.0\estoque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\obj\Debug\net6.0\estoque.AssemblyInfoInputs.cache
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\obj\Debug\net6.0\estoque.AssemblyInfo.cs
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\obj\Debug\net6.0\estoque.csproj.CoreCompileInputs.cache
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\obj\Debug\net6.0\estoque.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\obj\Debug\net6.0\estoque.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\obj\Debug\net6.0\estoque.csproj.CopyComplete
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\obj\Debug\net6.0\estoque.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\obj\Debug\net6.0\refint\estoque.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\obj\Debug\net6.0\estoque.pdb
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\obj\Debug\net6.0\estoque.genruntimeconfig.cache
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\obj\Debug\net6.0\ref\estoque.dll
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Math_\OneDrive\Documentos\ApiEstoque\webApiControleDeEstoque\obj\Debug\net6.0\scopedcss\bundle\estoque.styles.css
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\appsettings.json
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\estoque.exe
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\estoque.deps.json
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\estoque.runtimeconfig.json
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\estoque.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\estoque.pdb
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\Humanizer.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\estoque.csproj.AssemblyReference.cache
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\estoque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\estoque.AssemblyInfoInputs.cache
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\estoque.AssemblyInfo.cs
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\estoque.csproj.CoreCompileInputs.cache
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\estoque.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\estoque.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\staticwebassets\msbuild.estoque.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\staticwebassets\msbuild.build.estoque.props
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.estoque.props
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.estoque.props
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\scopedcss\bundle\estoque.styles.css
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\estoque.csproj.CopyComplete
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\estoque.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\refint\estoque.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\estoque.pdb
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\estoque.genruntimeconfig.cache
+C:\Users\mgama\OneDrive\Área de Trabalho\webApiControleDeEstoque\obj\Debug\net6.0\ref\estoque.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.csproj.AssemblyReference.cache
+C:\Users\Math_\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Math_\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.AssemblyInfoInputs.cache
+C:\Users\Math_\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.AssemblyInfo.cs
+C:\Users\Math_\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.csproj.CoreCompileInputs.cache
+C:\Users\Math_\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Math_\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Math_\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\refint\estoque.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.pdb
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\appsettings.json
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\estoque.exe
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\estoque.deps.json
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\estoque.runtimeconfig.json
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\estoque.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\estoque.pdb
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Math_\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Math_\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\scopedcss\bundle\estoque.styles.css
+C:\Users\Math_\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.csproj.CopyComplete
+C:\Users\Math_\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.genruntimeconfig.cache
+C:\Users\Math_\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\ref\estoque.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\Math_\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\appsettings.json
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\estoque.exe
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\estoque.deps.json
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\estoque.runtimeconfig.json
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\estoque.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\estoque.pdb
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Humanizer.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.csproj.AssemblyReference.cache
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.AssemblyInfoInputs.cache
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.AssemblyInfo.cs
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.csproj.CoreCompileInputs.cache
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\staticwebassets\msbuild.estoque.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\staticwebassets\msbuild.build.estoque.props
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.estoque.props
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.estoque.props
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\scopedcss\bundle\estoque.styles.css
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.csproj.CopyComplete
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\refint\estoque.dll
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.pdb
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\estoque.genruntimeconfig.cache
+C:\Users\mgama\OneDrive\Área de Trabalho\math\obj\Debug\net6.0\ref\estoque.dll

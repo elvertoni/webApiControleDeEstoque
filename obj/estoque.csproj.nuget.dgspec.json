@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Usuario\\Desktop\\estoque\\estoque\\estoque.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Categoria_Toni\\webApiControleDeEstoque\\estoque.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Usuario\\Desktop\\estoque\\estoque\\estoque.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Categoria_Toni\\webApiControleDeEstoque\\estoque.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Usuario\\Desktop\\estoque\\estoque\\estoque.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Categoria_Toni\\webApiControleDeEstoque\\estoque.csproj",
         "projectName": "estoque",
-        "projectPath": "c:\\Users\\Usuario\\Desktop\\estoque\\estoque\\estoque.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Categoria_Toni\\webApiControleDeEstoque\\estoque.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Usuario\\Desktop\\estoque\\estoque\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Categoria_Toni\\webApiControleDeEstoque\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,24 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -64,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
