@@ -1,0 +1,38 @@
+<div class="outer-container">
+    <div class="card-container">
+        <div class="card">
+            <div class="card-body">
+                <h2>Editar Categoria</h2>
+                <form [formGroup]="categoriaForm" (ngSubmit)="atualizarCategoria()">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" formControlName="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="descricao">Descrição:</label>
+                        <textarea id="descricao" formControlName="descricao" rows="4" required></textarea>
+                    </div>
+                    <div class="form-ids" *ngIf="categoria">
+                        <label>Fornecedor IDs:</label>
+                        <div class="itemScroll">
+                            <div *ngFor="let fornecedor of categoria.fornecedores" class="fornecedor-item">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" [value]="fornecedor.id"
+                                        (change)="onCheckboxChange($event, fornecedor)">
+                                </div>
+                                <span class="fornecedor-info">
+                                    <div>ID : {{ fornecedor.id }}
+                                        <div>Nome: {{ fornecedor.nome }}</div>
+                                    </div>
+                                    <div><strong>CNPJ:</strong> {{ fornecedor.cnpj }}</div>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Adicione outros campos conforme necessário -->
+                    <button type="submit" [disabled]="!categoriaForm.valid">Atualizar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

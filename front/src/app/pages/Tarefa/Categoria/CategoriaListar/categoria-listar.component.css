@@ -1,0 +1,80 @@
+/* Adicione isso ao seu arquivo CSS */
+
+.card-container {
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.card {
+    width: 25vw;
+    max-height: 40vh;
+
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.card-title {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.card-text {
+    margin-bottom: 5px;
+}
+
+/* Adicionado para melhorar a aparência dos fornecedores */
+.fornecedores-container {
+    min-height: 10vh;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.fornecedor-item {
+    margin-bottom: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.fornecedor-item p {
+    margin: 5px 0;
+    font-size: 80%;
+}
+
+.card-buttons {
+    margin-top: auto;
+    display: flex;
+    gap: 5px;
+}
+
+button {
+    flex: 1;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}

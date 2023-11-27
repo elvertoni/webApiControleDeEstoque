@@ -6839,19 +6839,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Toni\\.nuget\\packages\\": {}
+    "C:\\Users\\Pc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Toni\\Desktop\\Lost\\Back\\EstoqueApi.csproj",
+      "projectUniqueName": "C:\\Users\\Pc\\Desktop\\webApiControleDeEstoque\\back\\EstoqueApi.csproj",
       "projectName": "EstoqueApi",
-      "projectPath": "C:\\Users\\Toni\\Desktop\\Lost\\Back\\EstoqueApi.csproj",
-      "packagesPath": "C:\\Users\\Toni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Toni\\Desktop\\Lost\\Back\\obj\\",
+      "projectPath": "C:\\Users\\Pc\\Desktop\\webApiControleDeEstoque\\back\\EstoqueApi.csproj",
+      "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pc\\Desktop\\webApiControleDeEstoque\\back\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Toni\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -6935,7 +6935,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.415\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.417\\RuntimeIdentifierGraph.json"
       }
     }
   }

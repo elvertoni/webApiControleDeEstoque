@@ -1,0 +1,29 @@
+<!-- categoria-listar.component.html -->
+
+<div class="card-container">
+    <div *ngIf="!categorias || categorias.length === 0">
+        <p>Nenhuma categoria encontrada.</p>
+    </div>
+    <div *ngFor="let categoria of categorias" class="card">
+        <div class="card-body">
+            <h5 class="card-title">ID: {{ categoria.id }}</h5>
+            <p class="card-text">Nome: {{ categoria.nome }}</p>
+            <p class="card-text">Descrição: {{ categoria.descricao }}</p>
+            <div class="fornecedores-container">
+                <!-- Adicionado para exibir as informações do fornecedor automaticamente -->
+                <div *ngIf="categoria.fornecedores && categoria.fornecedores.length > 0">
+                    <div class="fornecedor-item" *ngFor="let fornecedor of categoria.fornecedores">
+                        <p>ID do Fornecedor: {{ fornecedor.id }}</p>
+                        <p>Nome do Fornecedor: {{ fornecedor.nome }}</p>
+                        <p>CNPJ do Fornecedor: {{ fornecedor.cnpj }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-buttons">
+                <button (click)="editarCategoria(categoria.id)">Editar</button>
+                <button (click)="excluirCategoria(categoria.id)">Excluir</button>
+            </div>
+        </div>
+    </div>
+</div>
+<button routerLink="/cadastrar-categoria">Cadastrar Categoria</button>

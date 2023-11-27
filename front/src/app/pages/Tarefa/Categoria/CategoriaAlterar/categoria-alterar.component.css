@@ -1,0 +1,86 @@
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    width: 40vw;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-ids {
+    margin-top: 15px;
+}
+
+.checkbox-container {
+    margin-right: 10px;
+}
+
+.itemScroll {
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.fornecedor-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.fornecedor-info {
+    flex: 1;
+    overflow: hidden;
+}
+
+.fornecedor-info div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
