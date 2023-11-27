@@ -1,0 +1,19 @@
+<div class="card-container">
+    <div class="center-text" *ngIf="!fornecedores || fornecedores.length === 0">
+        <p>Nenhum fornecedor encontrado.</p>
+    </div>
+    <div *ngFor="let fornecedor of fornecedores" class="card">
+        <div class="card-body">
+            <h5 class="card-title">{{ fornecedor.nome }}</h5>
+            <p class="card-text">Endereço: {{ fornecedor.endereco }}</p>
+            <p class="card-text">Telefone: {{ fornecedor.telefone }}</p>
+            <p class="card-text">CNPJ: {{ fornecedor.cnpj }}</p>
+            <div class="card-buttons">
+                <button (click)="editarFornecedor(fornecedor.id)">Editar</button>
+                <button (click)="excluirFornecedor(fornecedor.id)">Deletar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<button routerLink="/cadastrar-fornecedores">Cadastrar Fornecedor</button>

@@ -1,0 +1,26 @@
+<div class="card-container">
+    <div class="card">
+        <div class="card-body">
+            <h2>Editar Fornecedor</h2>
+            <form [formGroup]="fornecedorForm" (ngSubmit)="atualizarFornecedor()">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" formControlName="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" formControlName="endereco" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone" formControlName="telefone" required>
+                </div>
+                <div class="form-group">
+                    <label for="cnpj">CNPJ:</label>
+                    <input type="text" id="cnpj" formControlName="cnpj" required>
+                </div>
+                <button type="submit" [disabled]="!fornecedorForm.valid">Atualizar</button>
+            </form>
+        </div>
+    </div>
+</div>

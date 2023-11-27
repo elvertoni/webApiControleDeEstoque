@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+app-root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Adicionado estilo para app-menu e app-footer */
+app-menu,
+app-footer {
+    flex-shrink: 0;
+}
