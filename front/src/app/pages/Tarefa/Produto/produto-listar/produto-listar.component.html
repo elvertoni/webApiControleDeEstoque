@@ -1,0 +1,24 @@
+<!-- produto-listar.component.html -->
+<div class="card-containerpai">
+    <div class="card-container">
+        <div *ngIf="!produtos || produtos.length === 0" class="center-text">
+            <p>Nenhum produto encontrado.</p>
+        </div>
+        <div *ngFor="let produto of produtos" class="card">
+            <div class="card-body produto-item">
+                <h3 class="card-title">{{ produto.nome }}</h3>
+                <p class="card-text">Descrição: {{ produto.descricao }}</p>
+                <p class="card-text">Preço: R$ {{ produto.preco | number: '1.2-2' }}</p>
+                <p class="card-text">Quantidade em Estoque: {{ produto.quantidadeEstoque }}</p>
+                <p class="card-text">Data de Validade: {{ formatarData(produto.dataValidade) }}</p>
+                <p class="card-text">Fornecedor: {{ produto.fornecedor.nome }}</p>
+                <p class="card-text">Categoria: {{ produto.categoria.nome }}</p>
+                <div class="card-buttons">
+                    <button (click)="editarProduto(produto.id)">Editar</button>
+                    <button (click)="excluirProduto(produto.id)">Deletar</button>
+                </div>
+            </div>
+        </div>
+        <button routerLink="/produto-cadastrar" class="cadastrar-button">Cadastrar Produto</button>
+    </div>
+</div>

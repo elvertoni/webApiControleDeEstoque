@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pc\\Desktop\\webApiControleDeEstoque\\back\\EstoqueApi.csproj": {}
+    "C:\\Users\\alexa\\Desktop\\Trabalho\\webApiControleDeEstoque\\back\\EstoqueApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pc\\Desktop\\webApiControleDeEstoque\\back\\EstoqueApi.csproj": {
+    "C:\\Users\\alexa\\Desktop\\Trabalho\\webApiControleDeEstoque\\back\\EstoqueApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pc\\Desktop\\webApiControleDeEstoque\\back\\EstoqueApi.csproj",
+        "projectUniqueName": "C:\\Users\\alexa\\Desktop\\Trabalho\\webApiControleDeEstoque\\back\\EstoqueApi.csproj",
         "projectName": "EstoqueApi",
-        "projectPath": "C:\\Users\\Pc\\Desktop\\webApiControleDeEstoque\\back\\EstoqueApi.csproj",
-        "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pc\\Desktop\\webApiControleDeEstoque\\back\\obj\\",
+        "projectPath": "C:\\Users\\alexa\\Desktop\\Trabalho\\webApiControleDeEstoque\\back\\EstoqueApi.csproj",
+        "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexa\\Desktop\\Trabalho\\webApiControleDeEstoque\\back\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -98,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.417\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
