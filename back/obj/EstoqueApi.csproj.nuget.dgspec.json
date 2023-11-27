@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexa\\Desktop\\Trabalho\\webApiControleDeEstoque\\back\\EstoqueApi.csproj": {}
+    "C:\\Users\\Math_\\OneDrive\\Área de Trabalho\\Lost\\Back\\EstoqueApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexa\\Desktop\\Trabalho\\webApiControleDeEstoque\\back\\EstoqueApi.csproj": {
+    "C:\\Users\\Math_\\OneDrive\\Área de Trabalho\\Lost\\Back\\EstoqueApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexa\\Desktop\\Trabalho\\webApiControleDeEstoque\\back\\EstoqueApi.csproj",
+        "projectUniqueName": "C:\\Users\\Math_\\OneDrive\\Área de Trabalho\\Lost\\Back\\EstoqueApi.csproj",
         "projectName": "EstoqueApi",
-        "projectPath": "C:\\Users\\alexa\\Desktop\\Trabalho\\webApiControleDeEstoque\\back\\EstoqueApi.csproj",
-        "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexa\\Desktop\\Trabalho\\webApiControleDeEstoque\\back\\obj\\",
+        "projectPath": "C:\\Users\\Math_\\OneDrive\\Área de Trabalho\\Lost\\Back\\EstoqueApi.csproj",
+        "packagesPath": "C:\\Users\\Math_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Math_\\OneDrive\\Área de Trabalho\\Lost\\Back\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Math_\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -98,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.417\\RuntimeIdentifierGraph.json"
         }
       }
     }

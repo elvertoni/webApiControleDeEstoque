@@ -1,0 +1,30 @@
+SON para criar um Fornecedor:
+
+json
+Copy code
+{
+  "Nome": "Matheus",
+  "Endereco": "Endereço do Matheus",
+  "Telefone": "Telefone do Matheus",
+  "CNPJ": "00000000000000"
+}
+JSON para criar uma Categoria:
+
+json
+Copy code
+{
+  "Nome": "Nome da Jorge",
+  "Descricao": "Descrição da Jorge",
+}
+JSON para criar um Produto (onde você escolhe a categoria e o fornecedor):
+
+json
+Copy code
+{
+  "Nome": "Nome do Jorge",
+  "Descricao": "Descrição do Jorge",
+  "Preco": 99.99,
+  "QuantidadeEstoque": 100,
+  "DataValidade": "2023-11-07"
+}
+Certifique-se de ajustar os valores no JSON conforme necessário e inserir os IDs corretos para a categoria e o fornecedor desejados ao criar um novo produto.
